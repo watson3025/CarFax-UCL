@@ -1,24 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5bB-r4-5Iw">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--LIST-->
+        <scene sceneID="Ra9-hc-nOq">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController id="eUP-uH-Ysj" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="E8l-bN-dsY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="2sU-NW-5wL"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="LIST" image="list_icon_22" id="33t-TM-2Qi"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xn5-N4-LDr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="616" y="201"/>
+        </scene>
+        <!--LUCKY-->
+        <scene sceneID="VtT-qd-2e3">
+            <objects>
+                <viewController id="7cL-Gm-SKY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nKe-4e-if2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="VTw-Lz-u5h"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="LUCKY" image="lucky_icon_44" selectedImage="lucky_icon_44" id="yQM-yc-Ur0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YgB-cU-oxI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1409" y="201"/>
+        </scene>
+        <!--ALL-->
+        <scene sceneID="l7W-Jg-tIi">
+            <objects>
+                <viewController id="lgm-Gn-Wnt" customClass="ViewController" customModule="CarFax_UCL" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jJb-VD-ZCq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="yj3-tb-6id"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="ALL" image="car_icon_11" selectedImage="car_icon_11" id="6Ct-AV-a7w"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IJg-p1-v2O" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="616" y="-448"/>
+        </scene>
+        <!--REFINE-->
+        <scene sceneID="bQH-5K-sLr">
+            <objects>
+                <viewController id="tkx-pJ-lkP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BpI-M7-zvl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="tYI-XJ-AJi"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="REFINE" image="refine_icon_33" selectedImage="refine_icon_33" id="iLi-jK-QAo"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZSe-EQ-FWj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1409" y="-449"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="2u8-nq-AUj">
+            <objects>
+                <tabBarController id="5bB-r4-5Iw" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="T1i-3b-Ejz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="lgm-Gn-Wnt" kind="relationship" relationship="viewControllers" id="48G-dZ-VOD"/>
+                        <segue destination="eUP-uH-Ysj" kind="relationship" relationship="viewControllers" id="bbF-OD-63C"/>
+                        <segue destination="tkx-pJ-lkP" kind="relationship" relationship="viewControllers" id="fxn-ow-7cw"/>
+                        <segue destination="7cL-Gm-SKY" kind="relationship" relationship="viewControllers" id="UMk-NN-XQh"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cpx-Ap-7Le" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-303" y="-124"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="car_icon_11" width="58.5" height="28"/>
+        <image name="list_icon_22" width="58.5" height="28"/>
+        <image name="lucky_icon_44" width="58.5" height="28"/>
+        <image name="refine_icon_33" width="58.5" height="28"/>
+    </resources>
 </document>
