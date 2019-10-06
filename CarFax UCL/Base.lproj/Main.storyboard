@@ -49,14 +49,35 @@
                     <view key="view" contentMode="scaleToFill" id="jJb-VD-ZCq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0Dx-uQ-czu">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <searchBar contentMode="redraw" fixedFrame="YES" placeholder="search entire list of cars" showsCancelButton="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fPu-CR-eOW">
+                                <rect key="frame" x="20" y="67" width="374" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="0Dx-uQ-czu" secondAttribute="trailing" id="NsI-HS-8Ir"/>
+                            <constraint firstAttribute="bottom" secondItem="0Dx-uQ-czu" secondAttribute="bottom" id="VqN-Zd-kCP"/>
+                            <constraint firstItem="0Dx-uQ-czu" firstAttribute="top" secondItem="jJb-VD-ZCq" secondAttribute="top" id="k6h-Tb-e6k"/>
+                            <constraint firstItem="0Dx-uQ-czu" firstAttribute="leading" secondItem="jJb-VD-ZCq" secondAttribute="leading" id="nwc-hM-13k"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="yj3-tb-6id"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="ALL" image="car_icon_11" selectedImage="car_icon_11" id="6Ct-AV-a7w"/>
+                    <connections>
+                        <outlet property="backgroundViewOne" destination="0Dx-uQ-czu" id="Rky-Rk-ffb"/>
+                        <outlet property="searchBar" destination="fPu-CR-eOW" id="F5L-LG-nIv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IJg-p1-v2O" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="616" y="-449"/>
+            <point key="canvasLocation" x="614.49275362318849" y="-449.33035714285711"/>
         </scene>
         <!--REFINE-->
         <scene sceneID="bQH-5K-sLr">
