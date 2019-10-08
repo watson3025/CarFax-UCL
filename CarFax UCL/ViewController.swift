@@ -12,21 +12,23 @@ class ViewController: UIViewController,UISearchBarDelegate {
     @IBOutlet var backgroundViewOne: UIImageView!
     @IBOutlet var searchBar: UISearchBar!
     
+    //variable for random background
     var backgroundPicChooser: Int!
+    //instance of JsonDownloader class
+    var downloadJson = JsonDownloader()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         viewSettings()
+        downloadJson.downloadJson()
         // Do any additional setup after loading the view.
     }
 
+    
+
 
     func viewSettings() {
-       // UITabBar.appearance().backgroundColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
-      //  UITabBar.appearance().tintColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
-       // UITabBar.AnimationCurve.easeIn
-       
-       
+ 
         //--adjust the cornerRadius of the search bar
         searchBar.layer.masksToBounds = true
         searchBar.layer.cornerRadius = 10
@@ -52,9 +54,7 @@ class ViewController: UIViewController,UISearchBarDelegate {
         case 9: backgroundViewOne.image = #imageLiteral(resourceName: "2pic2")
         default: backgroundViewOne.image = #imageLiteral(resourceName: "4pic4")
         }
-        
-        //self.myBackground.image = backGroundPic
-        
+   
     }
     
     

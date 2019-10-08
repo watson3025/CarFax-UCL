@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F90AA7A7234C31E300520601 /* ConstantUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90AA7A6234C31E300520601 /* ConstantUI.swift */; };
 		F9250D50234A66D900F52D6B /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9250D4F234A66D900F52D6B /* ListViewController.swift */; };
 		F9250D52234A66EE00F52D6B /* RefineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9250D51234A66EE00F52D6B /* RefineViewController.swift */; };
 		F9250D54234A670100F52D6B /* LuckyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9250D53234A670100F52D6B /* LuckyViewController.swift */; };
+		F9250D56234A9EFB00F52D6B /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9250D55234A9EFB00F52D6B /* Modal.swift */; };
+		F9250D58234AA12E00F52D6B /* JsonDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9250D57234AA12E00F52D6B /* JsonDownloader.swift */; };
 		F93F5184234931EA00AEE8B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93F5183234931EA00AEE8B5 /* AppDelegate.swift */; };
 		F93F5186234931EA00AEE8B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93F5185234931EA00AEE8B5 /* ViewController.swift */; };
 		F93F5189234931EA00AEE8B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F93F5187234931EA00AEE8B5 /* Main.storyboard */; };
@@ -19,9 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F90AA7A6234C31E300520601 /* ConstantUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantUI.swift; sourceTree = "<group>"; };
 		F9250D4F234A66D900F52D6B /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		F9250D51234A66EE00F52D6B /* RefineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefineViewController.swift; sourceTree = "<group>"; };
 		F9250D53234A670100F52D6B /* LuckyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuckyViewController.swift; sourceTree = "<group>"; };
+		F9250D55234A9EFB00F52D6B /* Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal.swift; sourceTree = "<group>"; };
+		F9250D57234AA12E00F52D6B /* JsonDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDownloader.swift; sourceTree = "<group>"; };
 		F93F5180234931EA00AEE8B5 /* CarFax UCL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CarFax UCL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F93F5183234931EA00AEE8B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F93F5185234931EA00AEE8B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,8 +71,11 @@
 				F93F5183234931EA00AEE8B5 /* AppDelegate.swift */,
 				F93F5187234931EA00AEE8B5 /* Main.storyboard */,
 				F93F5185234931EA00AEE8B5 /* ViewController.swift */,
+				F9250D57234AA12E00F52D6B /* JsonDownloader.swift */,
 				F9250D4F234A66D900F52D6B /* ListViewController.swift */,
+				F9250D55234A9EFB00F52D6B /* Modal.swift */,
 				F9250D51234A66EE00F52D6B /* RefineViewController.swift */,
+				F90AA7A6234C31E300520601 /* ConstantUI.swift */,
 				F9250D53234A670100F52D6B /* LuckyViewController.swift */,
 				F93F518D234931EC00AEE8B5 /* Assets.xcassets */,
 				F93F518F234931EC00AEE8B5 /* LaunchScreen.storyboard */,
@@ -147,12 +156,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9250D58234AA12E00F52D6B /* JsonDownloader.swift in Sources */,
 				F93F5186234931EA00AEE8B5 /* ViewController.swift in Sources */,
 				F9250D54234A670100F52D6B /* LuckyViewController.swift in Sources */,
 				F9250D52234A66EE00F52D6B /* RefineViewController.swift in Sources */,
 				F93F518C234931EA00AEE8B5 /* CarFax_UCL.xcdatamodeld in Sources */,
+				F9250D56234A9EFB00F52D6B /* Modal.swift in Sources */,
 				F9250D50234A66D900F52D6B /* ListViewController.swift in Sources */,
 				F93F5184234931EA00AEE8B5 /* AppDelegate.swift in Sources */,
+				F90AA7A7234C31E300520601 /* ConstantUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
